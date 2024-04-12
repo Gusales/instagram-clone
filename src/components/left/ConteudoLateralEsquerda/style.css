@@ -1,0 +1,17 @@
+aside {
+  width: 250px;
+  min-height: 100vh;
+  padding: 0 2rem;
+
+  position: relative;
+  border-right: 1px solid #c4c4c4;
+}
+
+.logotipo_instagram {
+  width: 100%;
+}
+
+.profile {
+  position: absolute;
+  bottom: 1rem;
+}

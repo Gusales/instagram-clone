@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'instagram';
+  src: url('./assets/fonts/Instagram_sans.ttf') format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'instagram', sans-serif;
+}
+
+body {
+  background: #f3f3f3;
+}
