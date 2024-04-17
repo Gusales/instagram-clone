@@ -14,3 +14,10 @@
 body {
   background: #f3f3f3;
 }
+
+.wrapper {
+  min-height: 100%;
+  min-width: 100%;
+
+  display: flex;
+}
