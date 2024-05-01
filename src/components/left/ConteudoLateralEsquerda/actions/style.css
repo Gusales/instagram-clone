@@ -1,4 +1,4 @@
-ul {
+ul.actions_list {
   list-style: none;
   display: grid;
   row-gap: 1rem;

@@ -1,0 +1,43 @@
+.suggestion_container {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img.suggestion_image {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+}
+
+.suggestion_names {
+  flex: 1;
+  margin-left: .5rem;
+}
+
+.suggestion_names .suggestion_nick_name {
+  font-weight: 600;
+}
+
+.suggestion_name {
+  opacity: 0.6;
+}
+
+.suggestion_button {
+  outline: 0;
+  border: 0;
+  background: transparent;
+
+  color: #0095f6;
+
+  cursor: pointer;
+  transition: color 200ms;
+  line-height: 0;
+
+  &:hover {
+    color: #01253d;
+  }
+
+}

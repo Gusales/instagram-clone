@@ -1,0 +1,4 @@
+.suggestions_list {
+  display: grid;
+  gap: .5rem;
+}

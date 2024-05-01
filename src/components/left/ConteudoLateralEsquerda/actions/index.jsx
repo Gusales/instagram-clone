@@ -8,7 +8,7 @@ import './style.css'
 
 export function Actions() {
   return(
-    <ul>
+    <ul className="actions_list">
       <MenuItem name="Feed" icon={<CiHome />} />
       <MenuItem name="Buscar" icon={<FaMagnifyingGlass />} />
       <MenuItem name="Mensagens" icon={<TbMessageCircleBolt />} />

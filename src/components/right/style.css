@@ -1,0 +1,27 @@
+aside.conteudo_lateral_direita_container {
+  padding: 1.25rem;
+  width: 325px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+aside.conteudo_lateral_direita_container>p {
+  opacity: 0.4;
+}
+
+div.contedo_lateral_direita_divider {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bold {
+  font-weight: 600;
+  transition: opacity 400ms;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.6;
+  }
+}
