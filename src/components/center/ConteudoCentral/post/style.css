@@ -1,0 +1,67 @@
+.post {
+  width: 500px;
+}
+
+.post .card-body img {
+  width: 100%;
+  height: 500px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 .5rem .5rem;
+}
+
+.card-header .posted_by {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.posted_by_image {
+  width: 2.125rem;
+  height: 2.125rem;
+
+  border: double 2px transparent;
+  border-radius: 999px;
+  background-image: linear-gradient(225deg, red, yellow);
+  background-origin: border-box;
+}
+
+.posted_by_image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 999px;
+}
+
+.card-header button {
+  outline: 0;
+  border: 0;
+  background: transparent;
+
+  cursor: pointer;
+  font-size: 1.5rem;
+  line-height: 0;
+
+  transition: opacity 200ms;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.card-body .actions {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  margin-bottom: 1rem;
+}
+
+.actions svg {
+  font-size: 1.25rem;
+}

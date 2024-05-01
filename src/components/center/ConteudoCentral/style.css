@@ -1,0 +1,16 @@
+.content_main {
+  overflow-y: scroll;
+  max-height: 100vh;
+  padding: .75rem 1rem;
+
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  border: 1px solid #c4c4c4;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.content_main::-webkit-scrollbar {
+  display: none;
+}

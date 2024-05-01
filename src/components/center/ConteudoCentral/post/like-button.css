@@ -1,0 +1,12 @@
+.like_button {
+  outline: 0;
+  border: 0;
+  background: transparent;
+
+  cursor: pointer;
+  line-height: 0;
+}
+
+.like_button svg {
+  font-size: 1.25rem;
+}
